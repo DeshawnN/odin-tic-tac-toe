@@ -12,7 +12,6 @@ const gameBoard = (function() {
     return { move, getBoard };
 })();
 
-
 const { player1, player2 } = (function() {
     function Player(sign) {
         function getSign() {
@@ -27,5 +26,3 @@ const { player1, player2 } = (function() {
 
     return { player1, player2 };
 })();
-
-
