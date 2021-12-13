@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    justify-content: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 500px;
+}
+
+.grid > * {
+    cursor: pointer;
+    font-size: 36px;
+    display: inline-grid;
+    background-color: lightgray;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
