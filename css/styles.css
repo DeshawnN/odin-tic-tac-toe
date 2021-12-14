@@ -16,4 +16,21 @@
     height: 100px;
     justify-content: center;
     align-items: center;
+    border: 2px solid black;
+}
+
+.info {
+    display: flex;
+}
+
+.info div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info p {
+    min-height: 20px;
+    text-align: center;
 }
