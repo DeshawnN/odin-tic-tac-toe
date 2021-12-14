@@ -28,6 +28,8 @@ const gameBoard = (function() {
 
         DOM_textAreas[0].textContent = (!players[0]) ? 'Player 1' : players[0].getName();
 
+        DOM_textAreas[1].textContent = '';
+
         DOM_textAreas[2].textContent = (!players[1]) ? 'Player 2' : players[1].getName();
     }
 
